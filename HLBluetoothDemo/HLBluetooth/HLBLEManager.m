@@ -300,7 +300,7 @@ static HLBLEManager *instance = nil;
     
     for (CBCharacteristic *character in service.characteristics) {
         [peripheral discoverDescriptorsForCharacteristic:character];
-        [peripheral readValueForCharacteristic:character];
+//        [peripheral readValueForCharacteristic:character];
     }
 
 }
